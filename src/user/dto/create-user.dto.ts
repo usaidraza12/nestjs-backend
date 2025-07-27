@@ -4,5 +4,5 @@ export class CreateUserDto {
   readonly name: string;
   readonly email: string;
   readonly phone: string;
-  readonly role: 'user' | 'admin' | 'manager';
+  readonly role?: 'user' | 'admin' | 'manager';
 }
